@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+:root {
+  --navbar-bk: #F5F5F5;
+  --border-color: #D1D1D1;
+  --color-search: #A9A9A9;
+  --color: #FFF;
+  --bk-search-btn: #383838;
+  --color-links: #383838;
+  --bk-product: #FFF;
+  --color-product: #FF7D7D;
+  --card-bk-color: #EFEFEF;
+}
