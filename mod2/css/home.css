@@ -1,6 +1,6 @@
 @import 'nav.css';
 @import 'root.css';
-
+@import 'footer.css';
 .hero-section {
   width: 100%;
   height: calc(100vh - 120px);
@@ -65,8 +65,6 @@
 .product .nxt-btn:hover img {
   opacity: 1;
 }
-
-
 .product .product-container {
   padding: 0 10vw;
   display: flex;
@@ -150,4 +148,32 @@
   margin-left: 20px;
   opacity: 0.5;
   text-decoration: line-through;
+}
+.collection-container {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
+}
+.collection-container .collection {
+	position: relative;
+}
+.collection-container .collection img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.collection-container .collection p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: var(--color);
+	font-size: 50px;
+	text-transform: capitalize;
+}
+.collection-container .collection:nth-child(3) {
+	grid-column: span 2;
+	margin-bottom: 10px;
 }
